@@ -1,0 +1,588 @@
+body{
+    font-family: 'Yanone Kaffeesatz','sans-serif';
+    font-size: 17px;
+    color: #fff; 
+ }
+
+@import 'media1';
+
+#header {
+	// height: 1010px;
+	min-width: 1900px;
+	position: absolute;
+	z-index: 2;
+ //    background-size: 100%;
+    .container{
+    	width: 100%;
+	.headerTop{
+		height: 74px;
+		width: 100%;
+		a{
+				color: white;
+				font-size: 16px;
+				float: right;
+				margin: 25px 9px;
+				.fa-youtube:hover {
+    				color: #ec5538;	
+				}
+				.fa-google-plus:hover{
+    				color: #D13D2F;
+				}
+				.fa-facebook:hover{
+					color: #3B5997;
+				}
+				.fa-twitter:hover{
+					color: #29C5F6;
+				}
+	    }
+	}
+	.headerr{
+		width: 101.6%;
+		.col-md-2{
+			height: 90px;
+			width: 297px;
+		    background-color: #1B7B98;
+			position: relative;
+			margin-left: -15px;  // buna baxmali!
+			a{
+				img{
+					position: absolute;
+					top: -35px;
+				}
+			}
+		}
+		.col-md-6{
+			background-color: #1B7B98;
+			width: 816px;
+			margin-right: 15px; // buna baxmali!
+			ul{
+   				padding: 0 95px 0 0;
+   				opacity: .9;
+				li{
+					background-color: #1B7B98;
+					list-style-type: none;
+					float: left;
+					padding: 35px 19px;
+					text-transform: uppercase;
+					font-family: 'Yanone Kaffeesatz','sans-serif';
+					font-size: 22px;
+					font-weight: 100;
+					line-height: 20px;
+					a{
+						color: #fff;
+					}
+				}
+				li:hover{
+					background-color: #fff;
+					a{
+						color: #1B7B98;
+						text-decoration: none;
+					}
+				}
+
+			}
+		}
+	}
+}
+}
+
+#home{
+	width: 1900px;
+	position: relative;
+	.container{
+		width: 100%;
+		.carousel-inner{
+			img{
+				width: 100%;
+			}
+			.carousel-caption{
+				width: 477px;
+				height: 183px;
+				background: #000000;
+				color: #fff;
+				opacity: 0.8;
+				float: left;
+				top: 67%;
+				left: 0;
+				padding: 10px 60px 35px;
+				text-align: left;
+				h2{
+					font-size: 38px;
+					line-height: 42px;
+					font-family: 'Yanone Kaffeesatz','sans-serif';
+					font-weight: 300;
+				}
+				h4{
+					font-size: 24px;
+					line-height: 26px;
+					font-family: 'Yanone Kaffeesatz','sans-serif';
+					font-weight: 300;
+				}
+				a{
+					font-size: 22px;
+					line-height: 31px;
+					color: #2da1c5;
+					text-decoration: none;
+					font-weight: 300;
+					i{	
+						margin-left: 10px;
+					    transition: all 0.3s ease-in-out;
+					}
+				}
+				// a:hover{
+				// 	color: #2588a6;
+				// 	i{
+				// 		margin-left: 35px;
+				// 	}
+				
+			}
+		}
+	}
+}
+
+
+#explore{
+	// height: 356px;
+	width: 1900px;
+    background-size: contain;
+    background-color: #C34C39;
+    background-image: url(../../img/event-bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    padding: 130px 0 100px;
+    .container{ 
+	    
+	    
+	    .row{
+    	 	.watch{
+			    	position: absolute;
+			    	left: 0;
+			    	top: 7%;
+			}
+		    .col-md-3{
+		    	h2{
+		    		text-transform: uppercase;
+		    	    font-size: 42px;
+		    	    line-height: 46px;
+		    	    font-weight:normal;
+		    	    font-family: 'Yanone Kaffeesatz','sans-serif';
+		    	    letter-spacing: 0.5px;
+		    	    color: #fff;
+		    	}
+		    }
+		    .col-md-6{
+		    	ul{
+		    		// text-align: center;
+		    		overflow: hidden;
+    				margin: 0;
+		    		li{
+		    			list-style-type: none;
+		    			display: inline-block;
+		    			margin-left: 30px;
+		    			span{
+		    				width: 75px;
+		    				height: 82px;
+		    				border-radius: 10px;
+		    				line-height: 79px;
+		    				font-size: 40px;
+		    				font-weight: 500px;
+		    				color: #fff;
+		    				display: block;
+		    				text-align: center;
+		    			}
+				    	p{
+				    		text-transform: uppercase;
+				    	    font-size: 18px;
+				    	    font-weight: 100;
+				    	    font-family: 'Yanone Kaffeesatz','sans-serif';
+				    	    line-height: 26px;
+				    	    color: #fff;
+				    	    text-align: center;
+				    	    letter-spacing: 1.1px;
+				    	}
+				    	#day{
+				    		background-color: #efc94c;
+				    		border-top: 1px solid #6ac1b1;
+				    		border-left: 1px solid #6ac1b1;
+				    	}
+				    	#hour{
+				    		background-color: #45b29d;
+				    		border-top: 1px solid #f2d470;
+				    		border-left: 1px solid #f2d470;
+				    	}
+				    	#minute{
+				    		background-color: #e27a3f;
+				    		border-top: 1px solid #e89565;
+				    		border-left: 1px solid #e89565;
+				    	}
+				    	#second{
+				    		background-color: #df5a49;
+				    		border-top: 1px solid #e57b6d;
+				    		border-left: 1px solid #e57b6d;
+				    	}
+		    		}
+		    		li:after{
+		    			content: "";
+		    			height: 13px;
+		    			width: 1px;
+		    			background-color: #fff;
+		    			position: absolute;
+   						top: 53px;
+   						margin-left: 74px;
+		    		}
+		    		li:before{
+		    			content: "";
+		    			height: 13px;
+		    			width: 1px;
+		    			background-color: #fff;
+		    			position: absolute;
+   						top: 53px;
+		    		}
+		    	}
+
+		    }
+	    }
+	    .ticket{
+	    	width: 225px;
+	    	// height: 71px;
+	    	position: absolute;
+			top: 37%;
+			left: 97%;
+	    	background-color: #b34534;
+	    	transition: all 0.8s ease;
+	    	a{
+	    		text-decoration: none;
+	    		color: #fff;
+	    		div{
+	    			display: inline-block;
+	    			box-sizing: border-box;
+	    		}
+	    		i{
+	    			font-size: 30px;
+	    			line-height: 30px;
+	    			padding: 15px;
+	    		}
+	    		#main{
+	    			font-size: 23px;
+	    			font-weight: 100;
+	    			font-family: 'Yanone Kaffeesatz','sans-serif';
+	    			text-transform: uppercase;
+	    			line-height: 34px;
+	    			margin: 0;
+	    			text-align: center;
+	    			padding: 18px;
+	    			background-color: rgba(204, 99, 82, 0.62);
+	    		}
+	    		h2{
+					margin-top: 0;
+					margin-bottom: 0;
+	    		}
+	    	}
+	    }
+	    .ticket:hover{
+	    	left: 86%;
+	    }
+	}
+}
+
+#event {
+	width: 1900px;
+	background-color: #33888F;
+	background-image: url(../../img/performar-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: contain;
+	position: relative;
+	overflow:hidden;
+	.col-md-9{
+		font-family: 'Yanone Kaffeesatz','sans-serif';
+		color: #fff;
+		font-weight: 100;
+		text-transform: uppercase;
+		.carousel{
+			h2{
+				font-size: 36px;
+				line-height: 46px;
+				font-weight: 100;
+				margin: 45px 0px;
+			}
+			a{
+				text-decoration: none;
+				color: #fff;
+				position: absolute;
+				top: 0;
+				font-size: 32px;
+			}
+			a:hover, a:focus{
+				color: #337ab7;
+			}
+			.right{
+				right: 0;
+			}
+			.left{
+				right: 19px;
+			}
+			.carousel-inner{
+				.col-sm-4{
+					div{
+						margin-bottom: 70px;
+						h4{
+						font-size: 24px;
+						line-height: 26px;
+						font-weight: 100;
+					    }
+					    h5{
+						font-size: 18px;
+						line-height: 20px;
+						font-weight: 100;
+					    }
+				    }
+				}    
+			}
+		}
+	}
+	.guitar{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+#about{
+	width: 1900px;
+	height: 450px;
+	background-color: #75B46E;
+	position: relative;
+	div{
+		// display: inline-block;
+		// width: calc(50% - 2px);
+	}
+	.guitarr{
+		width: 50%;
+	}
+	.aboutEvento{
+		width: 50%;
+	    background: url(../../img/about-bg.jpg) no-repeat left bottom;
+	    background-size: cover;
+	    padding-top: 70px;
+	    padding-right: 70px;
+	    padding-bottom: 118px;
+	    padding-left: 70px;
+	    color: #fff;
+	    font-family: 'Yanone Kaffeesatz','sans-serif';
+	    position: absolute;
+	    top: 0;
+	    left: 50%; // position absolute verdim
+	    h2{
+	    	text-transform: uppercase;
+	    	font-size: 36px;
+	    	font-weight: 100;
+	    	line-height: 40px;
+	    	margin-bottom: 23px;
+	    }
+	    p{
+	    	font-size: 17px;
+	    	font-weight: 100;
+	    	line-height: 24px;
+	    	font-family: 'Dosis','sans-serif';
+	    }
+	    a{
+	    	font-size: 20px;
+	    	font-weight: 100;
+	    	line-height: 29px;
+	    	.btn-primary{
+	    		background-color: #137c61;
+			    color: #fff;
+			    text-transform: capitalize;
+			    border: none;
+			    margin-top: 28px;
+	    	}
+	    }
+	}
+}
+
+#twitter{
+	width: 1900px;
+	background: url(../../img/twitter-bg.jpg) no-repeat center bottom;
+	background-size: cover;
+	background-color: #ecedef;
+	position: relative;
+    padding: 95px 0 90px;
+    overflow: hidden;
+	.bird{
+	    position: absolute;
+	    top: 3%;
+	    left: 0px;
+	}
+	.carousel{
+		.item{
+			text-align: center;
+			font-weight: 100;
+			font-size: 24px;
+			line-height: 34px;
+			font-family: 'Yanone Kaffeesatz','sans-serif';
+			img{
+				padding: 5px;
+				margin-bottom: 30px;
+				background-color: #c5c8ce;
+				border-radius: 50%;
+				display: inline-block;
+			}
+			p{
+				color: #3d3d3d;
+			}
+		}
+		a{
+			color: #00c3ff;
+		}
+		a:hover,a:focus{
+			color: #2a6496;
+			text-decoration: none;
+		}
+		.left{
+			// position: absolute;
+		    font-size: 22px;
+			// top: 60%;
+			left: 0;
+			// top: 90%;
+		}
+		.right{
+			position: absolute;
+		    font-size: 22px;
+			// top: 60%;
+			// left: 0;	
+			// top: 90%;
+			right: 0;
+		
+		}
+
+
+	}
+
+}
+#sponsors{
+	width: 1900px;
+	height: 452px;
+	background-color: #1881a2;
+    background: url(../../img/sponsor-bg.jpg) no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz','sans-serif';
+    .light{
+    	position: absolute;
+    	top: 17px;
+    	right: 0;
+    }
+    .carousel{
+    	.sponsor-left, .sponsor-right{
+    		color: #fff;
+    		font-size: 28px;
+    		text-decoration: none;
+    		// position: absolute;
+    		// float: right;
+    		top: 0;
+    	}
+    	a:hover, a:focus{
+			color: #337ab7;
+	    }
+    	// .left{
+    	// 	right: 62px;
+    	// }
+    	// .right{
+    	// 	right: 41px;
+    	// }
+    	h2{
+    		margin-top: 70px;
+    		margin-bottom: 30px;
+    		font-size: 36px;
+    		line-height: 40px;
+    		font-weight: 100;
+    	}
+    	ul{
+    		list-style-type: none;
+    		li{
+
+    			display: inline-block;
+    			width: 33%;
+    			margin-bottom: 70px;
+    		}
+    	}
+    }
+}
+#contact{
+	.contactPart{
+		width: 1900px;
+	    background-color: #f7ab24;
+	    background-image: url(../../img/contact-bg.jpg);
+	    background-position: 60% 0;
+	    background-repeat: no-repeat;
+	    position: relative;
+	    overflow: hidden;
+	    height: 500px;
+	    .container{
+	    	margin-top: 26px;
+	    }
+		.earPiece{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		h3{
+			color: #373737;
+			font-size: 24px;
+			font-weight: 100;
+			line-height: 26px;
+			font-family: 'Yanone Kaffeesatz','sans-serif';
+			margin: 20px 0px;
+		}
+		address{
+			color: #373737;
+			font-size: 18px;
+			font-weight: 100;
+			line-height: 26px;
+			font-family: 'Dosis','sans-serif';
+		}
+		.col-sm-5{
+			.alert{
+				display: none;
+			}
+			form{
+				.btn{
+					background-color: #373737;
+    				color: #f7ab24;
+    				margin-top: 10px;
+    				font-size: 22px;
+    				padding: 6px 42px;
+    				border-radius: 0;
+    				border: none;
+    				font-family: 'Yanone Kaffeesatz','sans-serif';
+				}
+			}
+		}
+	}
+}
+#footer{
+	width: 1900px;
+	background-color: #212121;
+    background: url(../../img/footer-bg.jpg) no-repeat center bottom;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    line-height: 29px;
+    font-family: 'Dosis','sans-serif';
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    a{
+    	color: #f7ab24;
+    }
+    a:hover{
+    	color: #1B7B98;
+    	text-decoration: none;
+    }
+}

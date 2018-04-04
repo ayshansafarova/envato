@@ -1,0 +1,83 @@
+@media (max-width: 767px){
+
+// #header{
+// 	.headerTop{
+// 		display: none;
+// 	}
+// 	.headerr{
+// 		.col-md-6{
+// 			display: none;
+// 		}
+// 	}
+// }
+
+#explore{
+	background-size: cover;
+
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+		.headerr .container{
+			width:100%;
+		}
+		.countDown li{
+			margin-right:30px;}
+		.guitar{
+			right:0;}
+		.guitar2{
+			height:100%}
+		.guitar2 img{
+			padding-top:20%;}
+		.ear-piece{
+			left:-15%;}
+		#event .col-md-9{
+			z-index:10;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+		.headerr .col-md-6{
+			right: 0;
+    		top: -90px;
+		}
+		.countDown li{
+			margin-right:15px;}
+		.sponsor-left{
+			right:8%;}
+		.sponsor-right{
+			right:5%;}
+		.watch{
+			left:-8%}
+		// .guitarr{
+		// 	height:100%;}
+		// .guitarr img{
+		// 	padding-top:38%;}
+		.twit{
+			left:-5%;}
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+ .aboutEvento{
+	position: static;
+	width: 100%;
+  }
+}
+
+@media (max-width: 991px){
+
+#event{
+	background-size: cover;
+	.guitar{
+		visibility: hidden;
+	}
+}
+.earPiece, .light{
+	visibility: hidden;
+}
+// .aboutEvento{
+// 	position: static;
+// 	width: 100%;
+// }
+}
